@@ -1,0 +1,47 @@
+Operator	Result
+~	Bitwise unary NOT
+&	Bitwise AND
+|	Bitwise OR
+^	Bitwise exclusive OR
+>>	Shift right
+>>>	Shift right zero fill
+<<	Shift left
+&=	Bitwise AND assignment
+|=	Bitwise OR assignment
+^=	Bitwise exclusive OR assignment
+>>	Shift right assignment
+>>>=	Shift right zero fill assignment
+<<=	Shift left assignment
+
+
+Examples :
+
+The Bitwise NOT
+
+      00101010  =   42
+
+     becomes
+
+      11010101
+
+
+The Bitwise AND
+
+    00101010        42
+  & 00001111        15
+   __________
+    00001010        10
+
+The Bitwise OR
+
+     00101010        42
+   | 00001111        15
+    _________
+     00101111        47
+
+The Bitwise XOR
+
+   00101010        42
+ ^ 00001111        15
+   _________
+   00100101        37

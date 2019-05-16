@@ -1,0 +1,20 @@
+Operators with a higher precedence are executed before those of a lower precedence.
+
+Operators on the same line have the same precedence:
+
+Operator Precedence Group	Associativity	Operator Precedence
+(), [], postfix ++, postfix --	left	Highest
+unary +, unary -, prefix ++, prefix --, ~, !	right
+(type), new	left
+*, /, %	left
++, -	left
+<<, >>, >>>	left
+< ,<= , >, >=, instanceof
+==, !=
+&	left
+^	left
+|	left
+&&	left
+||	left
+?:	left
+=, +=, -=, *=, /=, %=, <<=, >>=, >>>=, &=, |=, ^=	right	lowest
