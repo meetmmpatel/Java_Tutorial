@@ -1,0 +1,98 @@
+
+In programming, a statement is an instruction to do something.
+
+It controls the sequence of execution of a program.
+
+In Java, a statement is terminated with a semicolon
+   and multiple statements can be written on a single line.
+
+Example :
+
+If block
+
+if (booleanExpression) {
+    statement (s)
+} else {
+    statement (s)
+}
+
+
+Multiple IF statements
+
+if (booleanExpression1) {
+    // statements
+} else if (booleanExpression2) {
+    // statements
+}
+...
+else {
+    // statements
+}
+
+
+An alternative to a series of else if is the switch statement.
+
+The switch statement allows you to choose a block of statements
+    to run from a selection of code, based on the return value of an expression.
+The expression used in the switch statement must
+    return an int or an enumerated value.
+
+Switch statement
+
+    switch (expression) {
+    case value_1 :
+
+         statement (s);
+         break;
+    case value_2 :
+         statement (s);
+         break;
+      .
+      .
+      .
+    case value_n :
+         statement (s);
+         break;
+    default:
+         statement (s);
+    }
+
+
+
+Loops introduction
+
+1. While loop
+
+while (booleanExpression) {
+    statement (s)
+}
+
+2. Do while loop
+
+do {
+    statement (s)
+} while (booleanExpression);
+
+3. for loop
+
+for ( init ; booleanExpression ; update ) {
+    statement (s)
+}
+
+init is an initialization that will be performed before the first iteration.
+booleanExpression is a boolean expression which will cause the
+execution of statement(s) if it evaluates to true.
+
+update is a statement that will be executed after the execution of the statement block.
+init, expression, and update are optional.
+
+The for statement will stop only if one of the following conditions is met:
+
+booleanExpression evaluates to false.
+A break or continue statement is executed.
+A runtime error occurs.
+
+4. For each loop
+
+for(type itr-var : iterableObj) statement-block
+
