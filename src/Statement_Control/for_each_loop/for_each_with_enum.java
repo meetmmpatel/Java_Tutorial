@@ -9,6 +9,7 @@ public class for_each_with_enum {
   }
   
   public static void main(String[] args) {
+  
 	for (Season season : Season.values()) {
 	  System.out.println(" The season is now " + season);
 	}

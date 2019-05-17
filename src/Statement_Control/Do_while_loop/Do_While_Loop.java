@@ -7,7 +7,7 @@ public class Do_While_Loop {
 	do {
 	  System.out.println(i);
 	  i++;
-	} while (i < 3);
+	} while (i < 0);
  
 	int limit = 20;
 	int sum = 0;

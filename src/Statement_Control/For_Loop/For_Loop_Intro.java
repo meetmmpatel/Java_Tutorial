@@ -8,7 +8,7 @@ public class For_Loop_Intro {
 	for (int i = 0; i < 5; i++) {
 	  System.out.println(i + " ");
 	}
-
+	
 
 // when variable is declared out side of loop
 	
