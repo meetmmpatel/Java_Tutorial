@@ -1,4 +1,4 @@
-package com.java.javaExceptions;
+package Statement_Control.Exceptions;
 
 import java.io.IOException;
 

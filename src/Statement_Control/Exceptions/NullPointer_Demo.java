@@ -1,4 +1,6 @@
-package com.java.javaExceptions;
+package Statement_Control.Exceptions;
+
+import java.util.InvalidPropertiesFormatException;
 
 public class NullPointer_Demo {
 
@@ -10,6 +12,6 @@ public class NullPointer_Demo {
         }catch (NullPointerException e){
             System.out.println("Null Pointer");
         }
-
+    
     }
 }
