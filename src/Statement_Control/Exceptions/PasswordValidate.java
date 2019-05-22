@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PasswordValidate {
 
-    public static final int passWordLength = 10;
+    public static final int passWordLength = 8;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
