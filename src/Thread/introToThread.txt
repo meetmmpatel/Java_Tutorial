@@ -1,0 +1,23 @@
+There are two ways to create a thread.
+
+-   Extend the java.lang.Thread class
+-   Implement the java.lang.Runnable interface.
+Once you have a Thread object, you call its start method to start the thread.
+When a thread is started, its run method is executed.
+Once the run method returns or throws an exception, the thread dies and will be garbage-collected.
+
+Every Thread has a state and a Thread can be in one of these six states.
+
+new. = A state in which a thread has not been started.
+runnable. = A state in which a thread is executing.
+blocked. = A state in which a thread is waiting for a lock to access an object.
+waiting. = A state in which a thread is waiting indefinitely for another thread to perform an action.
+timed__waiting. = A state in which a thread is waiting for up to a specified period of time for another thread to perform an action.
+terminated. = A state in which a thread has exited.
+
+
+join(): The join() method of a Thread instance is used to join
+    the start of a thread’s execution to end of other thread’s
+    execution such that a thread does not start running until another thread ends.
+    If join() is called on a Thread instance, the currently running thread will
+    block until the Thread instance has finished executing.
