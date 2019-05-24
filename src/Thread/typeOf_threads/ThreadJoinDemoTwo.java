@@ -13,6 +13,8 @@ public class ThreadJoinDemoTwo {
     
     try {
       first.join();
+      secound.join();
+      three.join();
 	}
     catch (InterruptedException e){
 	  System.out.println("Thread exceptions");
