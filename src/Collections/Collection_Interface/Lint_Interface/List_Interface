@@ -1,0 +1,24 @@
+
+
+List Interface ...
+
+1. ArrayList
+2. LinkedList
+3. Vector
+
+
+1. ArrayList
+  1.1 Is faster but not thread safe..
+  1.2 does not maintain order of element inside the ArrayList.
+
+  Index based – Elements can be randomly accessed using index positions. Index start with '0'.
+  Dynamic resizing – ArrayList grows dynamically when more elements needs to be added than it’s current size.
+  Non synchronized – ArrayList is not synchronized, by default. Programmer needs to use synchronized keyword appropiately or simply use Vector class.
+  Duplicates allowed – We can add duplicate elements in arraylist. It is not possible in sets.
+
+2. LinkedList
+  2.1 Is maintain the insertion order of each element.
+  2.2 Is implemented by node base algorithm.
+
+3. Vector
+  3.1 Is Thread safe..
