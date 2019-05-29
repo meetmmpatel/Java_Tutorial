@@ -1,4 +1,4 @@
-package Collections.Collection_Interface.Lint_Interface.Intro_to_ArrayList.CodeTest;
+package Collections.Collection_Interface.List_Interface.Intro_to_ArrayList.CodeTest;
 
 import java.util.ArrayList;
 import java.util.Iterator;

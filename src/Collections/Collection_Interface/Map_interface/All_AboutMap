@@ -1,0 +1,23 @@
+
+A Map is an object that maps keys to values.
+A map cannot contain duplicate keys.
+
+
+There are three main implementations of Map interfaces:
+
+HashMap, TreeMap, and LinkedHashMap.
+
+
+HashMap: it makes no guarantees concerning the order of iteration
+
+TreeMap: It stores its elements in a red-black tree, orders
+         its elements based on their values; it is substantially slower than HashMap.
+
+LinkedHashMap: It orders its elements based on the order
+        in which they were inserted into the set (insertion-order).
+
+        It stores key-value pairs similar to HashMap.
+        It contains only unique keys. Duplicate keys are not allowed.
+        It may have one null key and multiple null values.
+        It maintains the order of K,V pairs inserted to it
+        by adding elements to internally managed doubly-linked list.

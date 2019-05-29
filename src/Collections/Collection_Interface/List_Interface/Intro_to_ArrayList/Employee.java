@@ -1,6 +1,7 @@
-package Collections.Collection_Interface.Lint_Interface.Intro_to_ArrayList;
+package Collections.Collection_Interface.List_Interface.Intro_to_ArrayList;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Employee {
   
@@ -59,5 +60,21 @@ public class Employee {
 			", Address='" + Address + '\'' +
 			", localDate=" + localDate +
 			'}';
+  }
+  
+  @Override
+  public boolean equals(Object o) {
+	if (this == o) return true;
+	if (!(o instanceof Employee)) return false;
+	Employee employee = (Employee) o;
+	return getEmpId() == employee.getEmpId() &&
+			Objects.equals(getEmpName(), employee.getEmpName()) &&
+			Objects.equals(getAddress(), employee.getAddress()) &&
+			Objects.equals(getLocalDate(), employee.getLocalDate());
+  }
+  
+  @Override
+  public int hashCode() {
+	return Objects.hash(getEmpId(), getEmpName(), getAddress(), getLocalDate());
   }
 }

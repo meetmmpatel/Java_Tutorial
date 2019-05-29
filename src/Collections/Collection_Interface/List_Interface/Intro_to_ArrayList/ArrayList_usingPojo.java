@@ -1,4 +1,4 @@
-package Collections.Collection_Interface.Lint_Interface.Intro_to_ArrayList;
+package Collections.Collection_Interface.List_Interface.Intro_to_ArrayList;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
