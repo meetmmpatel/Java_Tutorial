@@ -1,0 +1,31 @@
+
+
+How to work with Stream in Java
+As we have seen in the above example, the working of stream can be explained
+    in three stages:
+
+1. Create a stream
+
+2. Perform intermediate operations on the initial stream to transform it into another stream and so on on further
+    intermediate operations. In the above example, the filter()
+    operation is intermediate operation, there can be more than one intermediate
+    operations.
+
+3. Perform terminal operation on the final stream to get the result.
+    In the above example, the count() operation is terminal operation.
+
+Java Stream Features
+1.  Stream does not store the elements. it simply performs the
+    aggregate operations(such as filter() and count() that
+    we have seen in the above example) to get the desired stream of data.
+
+2. The aggregate operations that we perform on the collection,
+    array or any other data source do not change the data of the source,
+    they simply return a new stream. For example the code we have seen
+    above is filtering the strings with length less than 6 using the
+    stream operations but it didn’t change the elements of the list.
+
+3. All the stream operations are lazy in nature which means they are
+    not executed until they are needed. For example, if we want to display
+    only the first 2 elements of a list using stream, the stream operation
+    would stop at the end of second iteration after displaying the second element of list.

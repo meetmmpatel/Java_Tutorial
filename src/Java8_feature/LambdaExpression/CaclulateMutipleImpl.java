@@ -4,10 +4,15 @@ public class CaclulateMutipleImpl {
   
   public static void main(String[] args) {
 	
-	engine((x, y) -> x + y);
-	engine((x, y) -> x * y);
-	engine((x, y) -> x - y);
-	engine((x, y) -> x % y);
+	engine((int x, int y) -> x + y);
+	engine((int x, int y) -> x * y);
+	engine((int x, int y) -> x - y);
+	engine((int x, int y) -> x % y);
+ 
+	engine((long x, long y) -> x + y);
+	engine((long x, long y) -> x * y);
+	engine((long x, long y) -> x - y);
+	engine((long x, long y) -> x % y);
 	
 	
   }
@@ -23,6 +28,18 @@ public class CaclulateMutipleImpl {
 	
   }
   
+  private static void engine(LongCalculator longCalculator){
+    
+    long x = 34;
+    long y = 45;
+    
+    long result = longCalculator.caculate(x, y);
+	System.out.println(result);
+  
+  
+  
+  }
+  
 }
 
 @FunctionalInterface
@@ -32,6 +49,7 @@ interface Calculator {
   
 }
 
+@FunctionalInterface
 interface LongCalculator{
   
   long caculate (long x, long y);

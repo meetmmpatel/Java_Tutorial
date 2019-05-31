@@ -1,0 +1,18 @@
+
+
+This class is introduced
+    to avoid NullPointerException that we frequently encounters
+    if we do not perform null checks in our code.
+
+Using this class we can easily check whether a variable has null
+    value or not and by doing this we can avoid the NullPointerException.
+    In this guide, we will see how to work with Optional class and the usage of
+    various methods of this class.
+
+
+    by using isPresent() method we can check whether the particular
+    Optional object(or instance)
+    is empty or no-empty.
+    There is another method present in the Optional class,
+     which only executes if the given Optional object is non-empty,
+     the method is ifPresent().
