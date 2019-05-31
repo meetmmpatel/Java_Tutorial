@@ -1,0 +1,46 @@
+
+
+1. Creational Design Patterns
+
+Creational patterns often used in place of direct instantiation with constructors. They make the creation process more adaptable and dynamic. In particular, they can provide a great deal of flexibility about which objects are created, how those objects are created, and how they are initialized.
+
+DESIGN PATTERN NAME	PURPOSE
+
+Builder
+
+Builder design pattern is an alternative way to construct complex objects and should be used only when we want to build different types of immutable objects using same object building process.
+
+Prototype
+
+    Prototype design pattern is used in scenarios where application needs to create a large number of instances of a class,
+    which have almost same state or differ very little.
+
+    Prototype pattern is one of the creational patterns.
+
+    Prototype pattern helps create duplicate object with better performance.
+
+    In Prototype Pattern a clone of an existing object is returned instead of
+    creating new one.
+
+Factory
+
+Factory design pattern is most suitable when complex object creation steps are involved. To ensure that these steps are centralized and not exposed to composing classes.
+
+Abstract factory
+
+Abstract factory pattern is used whenever we need another level of abstraction over a group of factories created using factory pattern.
+
+
+Singleton
+
+    Singleton enables an application to have one and only one instance of a class per
+    JVM.
+
+    Singleton pattern is a creational pattern.
+
+    This pattern involves only a single class which is responsible to creates
+    its own object.
+
+    The class ensures that only single object get created.
+
+    This class provides a way to access its only object.
