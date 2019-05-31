@@ -1,4 +1,4 @@
-#Design Patterns
+#**`Design Patterns`**
 Design patterns, as name suggest, are solutions for most commonly (and frequently) occurred problems while designing a software. These patterns are mostly “evolved” rather than “discovered”. A lot of learning, by lots of professional, have been summarized into these design patterns. None of these patterns force you anything in regard to implementation; they are just guidelines to solve a particular problem – in a particular way – in particular contexts. Code implementation is your responsibility.
 Being so much of importance, let’s learn these design patterns (in context of java) in more detail.
 
